@@ -1,0 +1,20 @@
+{
+	"name": "03_bases",
+	"version": "0.0.1",
+	"description": "First node app",
+	"main": "app.js",
+	"scripts": {
+		"start": "node src/app.js",
+		"dev": "nodemon src/app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Camilo Vanegas",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	},
+	"dependencies": {
+		"get-age": "^1.0.1",
+		"uuid": "^10.0.0"
+	}
+}
